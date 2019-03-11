@@ -455,7 +455,7 @@ sns.distplot(train.SalePrice, bins= 20)
 
 
 
-![png](output_3_2.png)
+![png](images/output_3_2.png)
 
 
 
@@ -475,7 +475,7 @@ sns.distplot(np.log(train.SalePrice), bins = 20)
 
 
 
-![png](output_4_2.png)
+![png](images/output_4_2.png)
 
 
 
@@ -500,7 +500,7 @@ heatmp = sns.heatmap(coeff, annot = True, xticklabels = corr_col.values, ytickla
 ```
 
 
-![png](output_6_0.png)
+![png](images/output_6_0.png)
 
 
 
@@ -510,7 +510,7 @@ sns.pairplot(train_df, size=2.5);
 ```
 
 
-![png](output_7_0.png)
+![png](images/output_7_0.png)
 
 
 
